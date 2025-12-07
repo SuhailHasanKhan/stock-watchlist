@@ -24,3 +24,39 @@ export default function StockListItem({ stock, onPress, onDelete }) {
     </TouchableOpacity>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    padding: 14,
+    marginVertical: 6,
+    marginHorizontal: 4,
+    borderRadius: 16,
+    backgroundColor: CARD_BG,
+    flexDirection: 'row',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOpacity: 0.06,
+    shadowRadius: 8,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 2,
+  },
+  ticker: {
+    color: PRIMARY,
+    fontWeight: '700',
+    fontSize: 18,
+  },
+  name: {
+    color: TEXT_DARK,
+    fontSize: 14,
+  },
+  notes: {
+    color: TEXT_MUTED,
+    fontSize: 12,
+    marginTop: 2,
+  },
+  delete: {
+    color: '#d64545',
+    fontSize: 18,
+    marginLeft: 10,
+  },
+});
