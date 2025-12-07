@@ -65,3 +65,59 @@ export default function WatchlistScreen({ navigation, stocks, onDeleteStock }) {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: SCREEN_BG,
+    padding: 16,
+  },
+  heading: {
+    color: TEXT_DARK,
+    fontSize: 24,
+    fontWeight: '700',
+  },
+  subheading: {
+    color: TEXT_MUTED,
+    fontSize: 13,
+    marginBottom: 12,
+  },
+  summaryCard: {
+    backgroundColor: CARD_BG,
+    padding: 16,
+    borderRadius: 16,
+    marginBottom: 14,
+    shadowColor: '#000',
+    shadowOpacity: 0.05,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 2,
+  },
+  summaryTitle: {
+    color: TEXT_MUTED,
+    fontSize: 13,
+  },
+  summaryValue: {
+    color: PRIMARY,
+    fontSize: 28,
+    fontWeight: '700',
+    marginTop: 4,
+  },
+  summaryHint: {
+    color: TEXT_MUTED,
+    fontSize: 12,
+    marginTop: 6,
+  },
+  addButton: {
+    marginBottom: 8,
+  },
+  primaryButton: {
+    borderRadius: 999,
+    overflow: 'hidden',
+  },
+  empty: {
+    color: TEXT_MUTED,
+    marginTop: 24,
+    textAlign: 'center',
+  },
+});

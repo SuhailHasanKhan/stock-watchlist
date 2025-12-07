@@ -55,3 +55,40 @@ export default function AddStockScreen({ navigation, onAddStock }) {
   );
 }
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: SCREEN_BG,
+    padding: 16,
+  },
+  heading: {
+    color: TEXT_DARK,
+    fontSize: 20,
+    fontWeight: '700',
+    marginBottom: 4,
+  },
+  subheading: {
+    color: TEXT_MUTED,
+    fontSize: 13,
+    marginBottom: 16,
+  },
+  input: {
+    backgroundColor: '#ffffff',
+    color: TEXT_DARK,
+    borderRadius: 12,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    borderWidth: 1,
+    borderColor: CARD_BORDER,
+    marginBottom: 12,
+  },
+  notesInput: {
+    height: 90,
+    textAlignVertical: 'top',
+  },
+  primaryButton: {
+    borderRadius: 999,
+    overflow: 'hidden',
+    marginTop: 4,
+  },
+});
