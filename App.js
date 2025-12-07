@@ -14,14 +14,14 @@ export default function App() {
       id: '1',
       ticker: 'AAPL',
       name: 'Apple Inc.',
-      targetPrice: '220',
+      targetPrice: '235',
       notes: 'Long-term hold',
     },
     {
       id: '2',
       ticker: 'VOO',
       name: 'Vanguard S&P 500 ETF',
-      targetPrice: '500',
+      targetPrice: '605',
       notes: 'Core index exposure',
     },
   ]);
